@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-26T13:04:20 IST" name="Suite" finished-at="2025-09-26T13:04:36 IST" duration-ms="16429">
+    <groups>
+    </groups>
+    <test started-at="2025-09-26T13:04:20 IST" name="Test" finished-at="2025-09-26T13:04:36 IST" duration-ms="16429">
+      <class name="demo.SampleTesting">
+        <test-method signature="test1()[pri:0, instance:demo.SampleTesting@694abbdc]" started-at="2025-09-26T13:04:33 IST" name="test1" finished-at="2025-09-26T13:04:34 IST" duration-ms="877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="testGet()[pri:0, instance:demo.SampleTesting@694abbdc]" started-at="2025-09-26T13:04:34 IST" name="testGet" finished-at="2025-09-26T13:04:34 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet -->
+        <test-method signature="testPost()[pri:0, instance:demo.SampleTesting@694abbdc]" started-at="2025-09-26T13:04:34 IST" name="testPost" finished-at="2025-09-26T13:04:36 IST" duration-ms="1867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPost -->
+      </class> <!-- demo.SampleTesting -->
+      <class name="demo.GraphqlQueryCalls">
+        <test-method is-config="true" signature="declareBaseURI()[pri:0, instance:demo.GraphqlQueryCalls@6aba2b86]" started-at="2025-09-26T13:04:20 IST" name="declareBaseURI" finished-at="2025-09-26T13:04:21 IST" duration-ms="1147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- declareBaseURI -->
+        <test-method signature="testWithVariables(java.lang.String)[pri:0, instance:demo.GraphqlQueryCalls@6aba2b86]" started-at="2025-09-26T13:04:21 IST" name="testWithVariables" data-provider="countryData" finished-at="2025-09-26T13:04:26 IST" duration-ms="5358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithVariables -->
+        <test-method signature="testWithVariables(java.lang.String)[pri:0, instance:demo.GraphqlQueryCalls@6aba2b86]" started-at="2025-09-26T13:04:26 IST" name="testWithVariables" data-provider="countryData" finished-at="2025-09-26T13:04:27 IST" duration-ms="535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithVariables -->
+        <test-method signature="testXLData(java.lang.String,java.lang.String)[pri:0, instance:demo.GraphqlQueryCalls@6aba2b86]" started-at="2025-09-26T13:04:28 IST" name="testXLData" data-provider="excelData" finished-at="2025-09-26T13:04:30 IST" duration-ms="1873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testXLData -->
+        <test-method signature="testXLData(java.lang.String,java.lang.String)[pri:0, instance:demo.GraphqlQueryCalls@6aba2b86]" started-at="2025-09-26T13:04:30 IST" name="testXLData" data-provider="excelData" finished-at="2025-09-26T13:04:31 IST" duration-ms="579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testXLData -->
+        <test-method signature="testXLData(java.lang.String,java.lang.String)[pri:0, instance:demo.GraphqlQueryCalls@6aba2b86]" started-at="2025-09-26T13:04:31 IST" name="testXLData" data-provider="excelData" finished-at="2025-09-26T13:04:31 IST" duration-ms="358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[France]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testXLData -->
+        <test-method signature="testXLData(java.lang.String,java.lang.String)[pri:0, instance:demo.GraphqlQueryCalls@6aba2b86]" started-at="2025-09-26T13:04:31 IST" name="testXLData" data-provider="excelData" finished-at="2025-09-26T13:04:32 IST" duration-ms="383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AU]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testXLData -->
+      </class> <!-- demo.GraphqlQueryCalls -->
+      <class name="demo.PojoCalls">
+        <test-method is-config="true" signature="declareBaseURI()[pri:0, instance:demo.PojoCalls@44ebcd03]" started-at="2025-09-26T13:04:32 IST" name="declareBaseURI" finished-at="2025-09-26T13:04:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- declareBaseURI -->
+        <test-method signature="testPojoForCountry()[pri:0, instance:demo.PojoCalls@44ebcd03]" started-at="2025-09-26T13:04:32 IST" name="testPojoForCountry" finished-at="2025-09-26T13:04:33 IST" duration-ms="1428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPojoForCountry -->
+      </class> <!-- demo.PojoCalls -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
